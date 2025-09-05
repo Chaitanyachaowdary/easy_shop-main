@@ -2,7 +2,11 @@
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ],
-  "build": {
-    "outputDirectory": "dist"
-  }
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "dist" }
+    }
+  ]
 }
