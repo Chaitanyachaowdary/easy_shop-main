@@ -20,6 +20,7 @@ export function Login() {
       <div className="bg-white w-80 p-6 rounded-xl shadow-lg">
         <h2 className="text-2xl font-bold text-center mb-6">Login</h2>
 
+        <h4>Enter Email : test@test.com</h4>
         <input
           type="email"
           placeholder="Email"
@@ -28,6 +29,7 @@ export function Login() {
           className="w-full mb-4 px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
 
+        <h4>Enter Password : 123456</h4>
         <input
           type="password"
           placeholder="Password"
